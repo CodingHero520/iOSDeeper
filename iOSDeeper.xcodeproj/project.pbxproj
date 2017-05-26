@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288379C57245C12F935BEC10 /* libPods-iOSDeeper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE1186828D2EB29DAC7BD21 /* libPods-iOSDeeper.a */; };
+		4F7178621ED5605D00EF3D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178611ED5605D00EF3D56 /* main.m */; };
+		4F7178651ED5605D00EF3D56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178641ED5605D00EF3D56 /* AppDelegate.m */; };
+		4F7178681ED5605D00EF3D56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178671ED5605D00EF3D56 /* ViewController.m */; };
+		4F71786B1ED5605D00EF3D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7178691ED5605D00EF3D56 /* Main.storyboard */; };
+		4F71786D1ED5605D00EF3D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F71786C1ED5605D00EF3D56 /* Assets.xcassets */; };
+		4F7178701ED5605D00EF3D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F71786E1ED5605D00EF3D56 /* LaunchScreen.storyboard */; };
+		4F71787B1ED5605D00EF3D56 /* iOSDeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F71787A1ED5605D00EF3D56 /* iOSDeeperTests.m */; };
+		4F7178861ED5605D00EF3D56 /* iOSDeeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178851ED5605D00EF3D56 /* iOSDeeperUITests.m */; };
+		4F7178971ED56C7A00EF3D56 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178951ED56C7A00EF3D56 /* MusicPlayerViewController.m */; };
+		4F7178981ED56C7A00EF3D56 /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F7178961ED56C7A00EF3D56 /* MusicPlayerViewController.xib */; };
+		4F71789B1ED58FE900EF3D56 /* 黄致列 - 默.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F71789A1ED58FE900EF3D56 /* 黄致列 - 默.mp3 */; };
+		4F7178A21ED5C2B600EF3D56 /* MPMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7178A01ED5C2B600EF3D56 /* MPMusicPlayerViewController.m */; };
+		4F7178A31ED5C2B600EF3D56 /* MPMusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F7178A11ED5C2B600EF3D56 /* MPMusicPlayerViewController.xib */; };
+		4F97EF231ED6C4C000D4302F /* RecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97EF211ED6C4C000D4302F /* RecorderViewController.m */; };
+		4F97EF241ED6C4C000D4302F /* RecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F97EF221ED6C4C000D4302F /* RecorderViewController.xib */; };
+		4F97EF291ED6D8BD00D4302F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97EF271ED6D8BD00D4302F /* VideoViewController.m */; };
+		4F97EF2A1ED6D8BD00D4302F /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F97EF281ED6D8BD00D4302F /* VideoViewController.xib */; };
+		4F97EF2F1ED7BABD00D4302F /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97EF2D1ED7BABD00D4302F /* TakePhotoViewController.m */; };
+		4F97EF301ED7BABD00D4302F /* TakePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F97EF2E1ED7BABD00D4302F /* TakePhotoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7178771ED5605D00EF3D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7178551ED5605D00EF3D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F71785C1ED5605D00EF3D56;
+			remoteInfo = iOSDeeper;
+		};
+		4F7178821ED5605D00EF3D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7178551ED5605D00EF3D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F71785C1ED5605D00EF3D56;
+			remoteInfo = iOSDeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0644FC8ECAEB475E132DDF70 /* Pods-iOSDeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDeeper/Pods-iOSDeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE1186828D2EB29DAC7BD21 /* libPods-iOSDeeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDeeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F71785D1ED5605D00EF3D56 /* iOSDeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7178611ED5605D00EF3D56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F7178631ED5605D00EF3D56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F7178641ED5605D00EF3D56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F7178661ED5605D00EF3D56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F7178671ED5605D00EF3D56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F71786A1ED5605D00EF3D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F71786C1ED5605D00EF3D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F71786F1ED5605D00EF3D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F7178711ED5605D00EF3D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7178761ED5605D00EF3D56 /* iOSDeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F71787A1ED5605D00EF3D56 /* iOSDeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDeeperTests.m; sourceTree = "<group>"; };
+		4F71787C1ED5605D00EF3D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7178811ED5605D00EF3D56 /* iOSDeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7178851ED5605D00EF3D56 /* iOSDeeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDeeperUITests.m; sourceTree = "<group>"; };
+		4F7178871ED5605D00EF3D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7178941ED56C7A00EF3D56 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		4F7178951ED56C7A00EF3D56 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		4F7178961ED56C7A00EF3D56 /* MusicPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerViewController.xib; sourceTree = "<group>"; };
+		4F71789A1ED58FE900EF3D56 /* 黄致列 - 默.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "黄致列 - 默.mp3"; sourceTree = "<group>"; };
+		4F71789F1ED5C2B600EF3D56 /* MPMusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMusicPlayerViewController.h; sourceTree = "<group>"; };
+		4F7178A01ED5C2B600EF3D56 /* MPMusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMusicPlayerViewController.m; sourceTree = "<group>"; };
+		4F7178A11ED5C2B600EF3D56 /* MPMusicPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPMusicPlayerViewController.xib; sourceTree = "<group>"; };
+		4F97EF201ED6C4C000D4302F /* RecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderViewController.h; sourceTree = "<group>"; };
+		4F97EF211ED6C4C000D4302F /* RecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderViewController.m; sourceTree = "<group>"; };
+		4F97EF221ED6C4C000D4302F /* RecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecorderViewController.xib; sourceTree = "<group>"; };
+		4F97EF261ED6D8BD00D4302F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		4F97EF271ED6D8BD00D4302F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		4F97EF281ED6D8BD00D4302F /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		4F97EF2C1ED7BABD00D4302F /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		4F97EF2D1ED7BABD00D4302F /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		4F97EF2E1ED7BABD00D4302F /* TakePhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhotoViewController.xib; sourceTree = "<group>"; };
+		84627567D22F9376246AD687 /* Pods-iOSDeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDeeper/Pods-iOSDeeper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F71785A1ED5605D00EF3D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288379C57245C12F935BEC10 /* libPods-iOSDeeper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7178731ED5605D00EF3D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F71787E1ED5605D00EF3D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229DBAEAC867AE73E858ABF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0644FC8ECAEB475E132DDF70 /* Pods-iOSDeeper.debug.xcconfig */,
+				84627567D22F9376246AD687 /* Pods-iOSDeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F7178541ED5605D00EF3D56 = {
+			isa = PBXGroup;
+			children = (
+				4F7178991ED58FD300EF3D56 /* Resource */,
+				4F71785F1ED5605D00EF3D56 /* iOSDeeper */,
+				4F7178791ED5605D00EF3D56 /* iOSDeeperTests */,
+				4F7178841ED5605D00EF3D56 /* iOSDeeperUITests */,
+				4F71785E1ED5605D00EF3D56 /* Products */,
+				229DBAEAC867AE73E858ABF9 /* Pods */,
+				6CE52CD726D3A9096C748D8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F71785E1ED5605D00EF3D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F71785D1ED5605D00EF3D56 /* iOSDeeper.app */,
+				4F7178761ED5605D00EF3D56 /* iOSDeeperTests.xctest */,
+				4F7178811ED5605D00EF3D56 /* iOSDeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F71785F1ED5605D00EF3D56 /* iOSDeeper */ = {
+			isa = PBXGroup;
+			children = (
+				4F97EF2B1ED7BA9B00D4302F /* 照相 */,
+				4F97EF251ED6D89D00D4302F /* 视频 */,
+				4F97EF1F1ED6C49500D4302F /* 录音 */,
+				4F7178931ED56C4B00EF3D56 /* 音乐 */,
+				4F7178631ED5605D00EF3D56 /* AppDelegate.h */,
+				4F7178641ED5605D00EF3D56 /* AppDelegate.m */,
+				4F7178661ED5605D00EF3D56 /* ViewController.h */,
+				4F7178671ED5605D00EF3D56 /* ViewController.m */,
+				4F7178691ED5605D00EF3D56 /* Main.storyboard */,
+				4F71786C1ED5605D00EF3D56 /* Assets.xcassets */,
+				4F71786E1ED5605D00EF3D56 /* LaunchScreen.storyboard */,
+				4F7178711ED5605D00EF3D56 /* Info.plist */,
+				4F7178601ED5605D00EF3D56 /* Supporting Files */,
+			);
+			path = iOSDeeper;
+			sourceTree = "<group>";
+		};
+		4F7178601ED5605D00EF3D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F7178611ED5605D00EF3D56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F7178791ED5605D00EF3D56 /* iOSDeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F71787A1ED5605D00EF3D56 /* iOSDeeperTests.m */,
+				4F71787C1ED5605D00EF3D56 /* Info.plist */,
+			);
+			path = iOSDeeperTests;
+			sourceTree = "<group>";
+		};
+		4F7178841ED5605D00EF3D56 /* iOSDeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7178851ED5605D00EF3D56 /* iOSDeeperUITests.m */,
+				4F7178871ED5605D00EF3D56 /* Info.plist */,
+			);
+			path = iOSDeeperUITests;
+			sourceTree = "<group>";
+		};
+		4F7178931ED56C4B00EF3D56 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				4F7178941ED56C7A00EF3D56 /* MusicPlayerViewController.h */,
+				4F7178951ED56C7A00EF3D56 /* MusicPlayerViewController.m */,
+				4F7178961ED56C7A00EF3D56 /* MusicPlayerViewController.xib */,
+				4F71789F1ED5C2B600EF3D56 /* MPMusicPlayerViewController.h */,
+				4F7178A01ED5C2B600EF3D56 /* MPMusicPlayerViewController.m */,
+				4F7178A11ED5C2B600EF3D56 /* MPMusicPlayerViewController.xib */,
+			);
+			name = "音乐";
+			sourceTree = "<group>";
+		};
+		4F7178991ED58FD300EF3D56 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4F71789A1ED58FE900EF3D56 /* 黄致列 - 默.mp3 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		4F97EF1F1ED6C49500D4302F /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				4F97EF201ED6C4C000D4302F /* RecorderViewController.h */,
+				4F97EF211ED6C4C000D4302F /* RecorderViewController.m */,
+				4F97EF221ED6C4C000D4302F /* RecorderViewController.xib */,
+			);
+			name = "录音";
+			sourceTree = "<group>";
+		};
+		4F97EF251ED6D89D00D4302F /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				4F97EF261ED6D8BD00D4302F /* VideoViewController.h */,
+				4F97EF271ED6D8BD00D4302F /* VideoViewController.m */,
+				4F97EF281ED6D8BD00D4302F /* VideoViewController.xib */,
+			);
+			name = "视频";
+			sourceTree = "<group>";
+		};
+		4F97EF2B1ED7BA9B00D4302F /* 照相 */ = {
+			isa = PBXGroup;
+			children = (
+				4F97EF2C1ED7BABD00D4302F /* TakePhotoViewController.h */,
+				4F97EF2D1ED7BABD00D4302F /* TakePhotoViewController.m */,
+				4F97EF2E1ED7BABD00D4302F /* TakePhotoViewController.xib */,
+			);
+			name = "照相";
+			sourceTree = "<group>";
+		};
+		6CE52CD726D3A9096C748D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE1186828D2EB29DAC7BD21 /* libPods-iOSDeeper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F71785C1ED5605D00EF3D56 /* iOSDeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F71788A1ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeper" */;
+			buildPhases = (
+				3762991F6F828A176E284E12 /* [CP] Check Pods Manifest.lock */,
+				4F7178591ED5605D00EF3D56 /* Sources */,
+				4F71785A1ED5605D00EF3D56 /* Frameworks */,
+				4F71785B1ED5605D00EF3D56 /* Resources */,
+				C96544DDA6895691DDA430AF /* [CP] Embed Pods Frameworks */,
+				81AE7B963884F3CCA5B9A553 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDeeper;
+			productName = iOSDeeper;
+			productReference = 4F71785D1ED5605D00EF3D56 /* iOSDeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F7178751ED5605D00EF3D56 /* iOSDeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F71788D1ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeperTests" */;
+			buildPhases = (
+				4F7178721ED5605D00EF3D56 /* Sources */,
+				4F7178731ED5605D00EF3D56 /* Frameworks */,
+				4F7178741ED5605D00EF3D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7178781ED5605D00EF3D56 /* PBXTargetDependency */,
+			);
+			name = iOSDeeperTests;
+			productName = iOSDeeperTests;
+			productReference = 4F7178761ED5605D00EF3D56 /* iOSDeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F7178801ED5605D00EF3D56 /* iOSDeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7178901ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeperUITests" */;
+			buildPhases = (
+				4F71787D1ED5605D00EF3D56 /* Sources */,
+				4F71787E1ED5605D00EF3D56 /* Frameworks */,
+				4F71787F1ED5605D00EF3D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7178831ED5605D00EF3D56 /* PBXTargetDependency */,
+			);
+			name = iOSDeeperUITests;
+			productName = iOSDeeperUITests;
+			productReference = 4F7178811ED5605D00EF3D56 /* iOSDeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F7178551ED5605D00EF3D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = baolei;
+				TargetAttributes = {
+					4F71785C1ED5605D00EF3D56 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9E798LNYML;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					4F7178751ED5605D00EF3D56 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F71785C1ED5605D00EF3D56;
+					};
+					4F7178801ED5605D00EF3D56 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F71785C1ED5605D00EF3D56;
+					};
+				};
+			};
+			buildConfigurationList = 4F7178581ED5605D00EF3D56 /* Build configuration list for PBXProject "iOSDeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F7178541ED5605D00EF3D56;
+			productRefGroup = 4F71785E1ED5605D00EF3D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F71785C1ED5605D00EF3D56 /* iOSDeeper */,
+				4F7178751ED5605D00EF3D56 /* iOSDeeperTests */,
+				4F7178801ED5605D00EF3D56 /* iOSDeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F71785B1ED5605D00EF3D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F97EF241ED6C4C000D4302F /* RecorderViewController.xib in Resources */,
+				4F7178701ED5605D00EF3D56 /* LaunchScreen.storyboard in Resources */,
+				4F71786D1ED5605D00EF3D56 /* Assets.xcassets in Resources */,
+				4F71786B1ED5605D00EF3D56 /* Main.storyboard in Resources */,
+				4F71789B1ED58FE900EF3D56 /* 黄致列 - 默.mp3 in Resources */,
+				4F7178A31ED5C2B600EF3D56 /* MPMusicPlayerViewController.xib in Resources */,
+				4F97EF2A1ED6D8BD00D4302F /* VideoViewController.xib in Resources */,
+				4F7178981ED56C7A00EF3D56 /* MusicPlayerViewController.xib in Resources */,
+				4F97EF301ED7BABD00D4302F /* TakePhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7178741ED5605D00EF3D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F71787F1ED5605D00EF3D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3762991F6F828A176E284E12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81AE7B963884F3CCA5B9A553 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSDeeper/Pods-iOSDeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96544DDA6895691DDA430AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSDeeper/Pods-iOSDeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7178591ED5605D00EF3D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F97EF231ED6C4C000D4302F /* RecorderViewController.m in Sources */,
+				4F7178681ED5605D00EF3D56 /* ViewController.m in Sources */,
+				4F97EF2F1ED7BABD00D4302F /* TakePhotoViewController.m in Sources */,
+				4F7178651ED5605D00EF3D56 /* AppDelegate.m in Sources */,
+				4F7178621ED5605D00EF3D56 /* main.m in Sources */,
+				4F97EF291ED6D8BD00D4302F /* VideoViewController.m in Sources */,
+				4F7178A21ED5C2B600EF3D56 /* MPMusicPlayerViewController.m in Sources */,
+				4F7178971ED56C7A00EF3D56 /* MusicPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7178721ED5605D00EF3D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F71787B1ED5605D00EF3D56 /* iOSDeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F71787D1ED5605D00EF3D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7178861ED5605D00EF3D56 /* iOSDeeperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7178781ED5605D00EF3D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F71785C1ED5605D00EF3D56 /* iOSDeeper */;
+			targetProxy = 4F7178771ED5605D00EF3D56 /* PBXContainerItemProxy */;
+		};
+		4F7178831ED5605D00EF3D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F71785C1ED5605D00EF3D56 /* iOSDeeper */;
+			targetProxy = 4F7178821ED5605D00EF3D56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F7178691ED5605D00EF3D56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F71786A1ED5605D00EF3D56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F71786E1ED5605D00EF3D56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F71786F1ED5605D00EF3D56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F7178881ED5605D00EF3D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F7178891ED5605D00EF3D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F71788B1ED5605D00EF3D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0644FC8ECAEB475E132DDF70 /* Pods-iOSDeeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9E798LNYML;
+				INFOPLIST_FILE = iOSDeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F71788C1ED5605D00EF3D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84627567D22F9376246AD687 /* Pods-iOSDeeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9E798LNYML;
+				INFOPLIST_FILE = iOSDeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F71788E1ED5605D00EF3D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSDeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDeeper.app/iOSDeeper";
+			};
+			name = Debug;
+		};
+		4F71788F1ED5605D00EF3D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSDeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDeeper.app/iOSDeeper";
+			};
+			name = Release;
+		};
+		4F7178911ED5605D00EF3D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSDeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSDeeper;
+			};
+			name = Debug;
+		};
+		4F7178921ED5605D00EF3D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSDeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.iOSDeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSDeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7178581ED5605D00EF3D56 /* Build configuration list for PBXProject "iOSDeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7178881ED5605D00EF3D56 /* Debug */,
+				4F7178891ED5605D00EF3D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F71788A1ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F71788B1ED5605D00EF3D56 /* Debug */,
+				4F71788C1ED5605D00EF3D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F71788D1ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F71788E1ED5605D00EF3D56 /* Debug */,
+				4F71788F1ED5605D00EF3D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7178901ED5605D00EF3D56 /* Build configuration list for PBXNativeTarget "iOSDeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7178911ED5605D00EF3D56 /* Debug */,
+				4F7178921ED5605D00EF3D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F7178551ED5605D00EF3D56 /* Project object */;
+}
